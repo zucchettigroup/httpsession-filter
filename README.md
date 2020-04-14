@@ -1,2 +1,2 @@
 # httpsession-filter
-Filter to debug HttpSession status
+Http Filter to debug HttpSession status
