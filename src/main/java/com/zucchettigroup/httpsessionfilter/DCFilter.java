@@ -204,8 +204,9 @@ public class DCFilter implements Filter
 				.append("</head>")
 				.append("<body>")
 				.append("<div style=\"text-align:center\">")
-				.append("<h1>").append(sessionStatus.httpcode).append(" - ")
-				.append(sessionStatus.errorMsg).append("</h1>")
+				.append(Utils.logoImageEncodedTag())
+				.append("<h2>").append(sessionStatus.httpcode).append(" - ")
+				.append(sessionStatus.errorMsg).append("</h2>")
 				.append("</div>")
 				.append("</body>")
 				.append("</html>").toString().getBytes();
