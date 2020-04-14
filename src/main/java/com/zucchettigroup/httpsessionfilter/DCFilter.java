@@ -34,6 +34,9 @@ import javax.servlet.http.HttpSession;
 
 import org.json.JSONObject;
 
+/**
+ * @author GROPPEDEV
+ */
 @WebFilter(dispatcherTypes = {DispatcherType.REQUEST, DispatcherType.FORWARD, DispatcherType.INCLUDE, DispatcherType.ERROR}, 
 		   urlPatterns = { "/*" })
 public class DCFilter implements Filter 

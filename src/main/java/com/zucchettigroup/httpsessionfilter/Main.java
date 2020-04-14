@@ -14,7 +14,8 @@ import org.apache.catalina.webresources.StandardRoot;
 
 /**
  * @see https://github.com/heroku/devcenter-embedded-tomcat.git
- * @author GROMAS
+ * 
+ * @author GROPPEDEV
  */
 public class Main 
 {

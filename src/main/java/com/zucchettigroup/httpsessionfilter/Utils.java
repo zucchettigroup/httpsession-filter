@@ -3,6 +3,9 @@ package com.zucchettigroup.httpsessionfilter;
 import java.io.File;
 import java.net.URISyntaxException;
 
+/**
+ * @author GROPPEDEV
+ */
 public class Utils 
 {
     public static File getRootFolder() 
